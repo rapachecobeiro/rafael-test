@@ -1,0 +1,23 @@
+{
+  "name": "hello-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapachecobeiro/rafael-test.git"
+  },
+  "author": "Rafael Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rapachecobeiro/rafael-test/issues"
+  },
+  "homepage": "https://github.com/rapachecobeiro/rafael-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

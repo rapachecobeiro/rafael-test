@@ -1,0 +1,10 @@
+applications:
+  - name: hello-actions
+    memory: 512M
+    disk_quota: 512M
+    instances: 1
+    health-check-type: none
+    random-route: false
+    buildpacks:
+      - nodejs_buildpack
+    stack: cflinuxfs3

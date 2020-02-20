@@ -2,6 +2,8 @@
 const express = require("express");
 const app = express();
 
+console.log("App starting")
+
 app.get("/", (req, res) => {
   res.send("Hello Actions!");
 });
