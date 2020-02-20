@@ -1,14 +1,14 @@
 // NPM Imports
-const express = require("express");
-const app = express();
+// const express = require("express");
+// const app = express();
 
-console.log("App starting")
+console.log("Hello Actions")
 
-app.get("/", (req, res) => {
-  res.send("Hello Actions!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello Actions!");
+// });
 
-// Run server on port
-const server = app.listen(process.env.PORT || 8080, () => {
-  console.log("Server is listening on port 8080");
-});
+// // Run server on port
+// const server = app.listen(process.env.PORT || 8080, () => {
+//   console.log("Server is listening on port 8080");
+// });
