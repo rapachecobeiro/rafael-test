@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# cp bin/provisioning-cli .
+cp bin/provisioning-cli .
 
-provisioning-cli config set-token $PUSH_TOKEN
-provisioning-cli config set-api provisioning.platform.manulife.io
-provisioning-cli config initInteractiveApproval
+./provisioning-cli config set-token $PUSH_TOKEN
+./provisioning-cli config set-api provisioning.platform.manulife.io
+./provisioning-cli config initInteractiveApproval
 
-provisioning-cli app push \
+./provisioning-cli app push \
     --appName "hello-actions" \
     --manifestFileName 'manifest.yml' \
     --framework "node" \
