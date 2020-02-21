@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a multi-line script
+    - name: deploy-dev
       run: |
-        npm install
-        npm start
+        export PUSH_TOKEN=${{ secrets.PUSH_TOKEN }}
+        ./push.sh
