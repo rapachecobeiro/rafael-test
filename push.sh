@@ -2,6 +2,7 @@
 
 cp bin/provisioning-cli .
 
+source vars.sh
 ./provisioning-cli config set-token $PUSH_TOKEN
 ./provisioning-cli config set-api provisioning.platform.manulife.io
 ./provisioning-cli config initInteractiveApproval
